@@ -50,7 +50,7 @@
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" style="margin-right:100px">
         <ul>
 
           <li class=""><a href="#"><span>Accueil</span> </a>
@@ -61,6 +61,7 @@
           <li><a class="nav-link scrollto" href="index.html#portfolio">Projets</a></li>
           <li><a class="nav-link scrollto" href="index.html#team">Equipe</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li><a class="nav-link scrollto" href="index.html#carriere">Carrière</a></li>
           <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
@@ -74,12 +75,18 @@
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
       <img src="assets/img/imgb3.jpg" class="img-fluid animated">
-      <h2>Bienvenue sur le site officiel de  <span>PALOMA SERVICES</span></h2>
-      <p>Avec plus de 10 ans d'expérience et un réel souci de la satisfaction de la clientèle. <br> Vous pouvez compter sur nous pour un prochain projet.</p>
-      <div class="d-flex">
+      <h2>Bienvenue chez <span>PALOMA SERVICES</span></h2>
+      <p>PALOMA SERVICES SARL est une entreprise de droit congolais
+        opérant dans plusieurs Services du domaine pétrolier, dans la mise à
+        disposition du personnel technique en on/offshore, dans le Facility
+        Management ou Maintenance globale, dans le Génie civil et le
+        bâtiment, dans la Soudure, Chaudronnerie, Métallurgie, la protection
+        Cathodique et la réparation de la tuyauterie à la résine ainsi que dans
+        la vente et fourniture du matériel pétrolier.</p>
+      <!--<div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">A propos de Nous</a>
         <a href="https://www.youtube.com/" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Regarder la vidéo</span></a>
-      </div>
+      </div>-->
     </div>
   </section>
 
@@ -133,15 +140,14 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>A propos de Nous <i class="bi bi-info"></i> </h2>
+          <h2>A propos de Nous </h2>
           <p>PALOMA SERVICES SARL, est une entreprise de droit congolais opérant
-            dans plusieurs secteurs notamment en : <strong> Facility Management </strong>, génie civil,
-            Réhabilitation et construction des bâtiments civil et industruel, soudure,
-            chaudronnerie, Protection cathodique et réparation de la tuyauterie à la
-            résine. <br>  Créée en 1994, donc voici bientôt 27 ans, son expérience, et son savoir faire
-            ne sont plus à démontrer.
-            Elle est implantée en République du Congo, et constitue aussi, un élément
-            important et significatif du tissu industriel local.
+            dans plusieurs secteurs notamment en : <strong> Facility Management </strong>, <strong>génie civil</strong>,
+            <strong>Réhabilitation et construction des bâtiments civil et industruel</strong>, <strong>soudure</strong>,
+            <strong>chaudronnerie</strong>, <strong>Protection cathodique et réparation de la tuyauterie à la
+            résine</strong>. <br>
+            Créée en 1994, soit depuis 29 ans, son expérience et son savoir faire ne sont plus à démontrer.
+            <br> Elle est implantée en République du Congo, et constitue aussi un élément important et significatif du tissu industriel local.
           </p>
         </div>
 
@@ -166,37 +172,32 @@
 
               <div class="tab-pane fade show active" id="tab1">
 
-                <p class="fst-italic">Information</p>
+                <!--<p class="fst-italic">Information</p>-->
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
                   <h4>Nous combinons un travail de qualité, des connaissances supérieures et des prix bas</h4>
                 </div>
-                <p>...</p>
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
-                  <h4>Nous pouvons garantir qu'un travail est effectué dans les délais et dans les limites du budget</h4>
+                  <h4>Nous garantissons des travaux effectués dans les délais et le strict respect du budget</h4>
                 </div>
-                <p>...</p>
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
-                  <h4>Des résultats éprouvés pour établir des normes exceptionnelles en matière de contrôle des coûts</h4>
+                  <h4>Nos résultats éprouvés établissent des normes exceptionnelles en matière de contrôle des coûts</h4>
                 </div>
-                <p>...</p>
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
-                  <h4>Service professionnel pour les clients privés et publics</h4>
+                  <h4>Nous garantissons un service professionnel pour nos clients privés et publics</h4>
                 </div>
-                <p>...</p>
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
-                  <h4>27 ans d'expérience et un réel souci de la satisfaction client</h4>
+                  <h4>29 ans d'expérience et un réel souci de la satisfaction client</h4>
                 </div>
-                <p>...</p>
 
               </div><!-- End Tab 1 Content -->
 
@@ -263,14 +264,14 @@
         <div class="row g-5">
 
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3> POURQUOI PALOMA SERVICES  <em>???</em> </h3>
-            <p> Fondé Par <strong> LOUSSILAHO Jean Jacques </strong> il y a plus de 10 années PALOMA SERVICES  s'est imposé année après année comme l'un des plus grands et prestigieux prestataires de services de <strong> Facility Management </strong> <i> (Maintenance globale) </i>, le BTP et la Rénovation...</p>
-            <a class="cta-btn align-self-start" href="#"> Accueil</a>
+            <h2> POURQUOI NOUS ? </h2>
+            <p> Fondé Par <strong> LOUSSILAHO Jean Jacques </strong> il y a près de 30 années PALOMA SERVICES  s'est imposé année après année comme l'un des plus grands et prestigieux prestataires de services</p>
+            <!--<a class="cta-btn align-self-start" href="#"> Accueil</a>-->
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              <img src="assets/img/Mr-Laurent.jpg" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -369,7 +370,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+          <!--<div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
@@ -387,7 +388,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+          <!--<div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
@@ -405,7 +406,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+          <!--<div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
@@ -774,7 +775,7 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Mr-Jean-Jacques-6.jpeg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
@@ -783,8 +784,8 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Nom & Prénom</h4>
-                <span>Poste</span>
+                <h4>Jean-Jacques LOUSSILAHO</h4>
+                <span>Président Directeur Général</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -801,8 +802,8 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Nom & Prénom</h4>
-                <span>Poste</span>
+                <h4>ETHA Rébélie</h4>
+                <span>Présidente Directrice Générale Adjointe</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -819,8 +820,8 @@
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
-                <h4>Nom & Prénom</h4>
-                <span>Poste</span>
+                <h4>Samer NEHME</h4>
+                <span>Directeur Général</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -829,6 +830,79 @@
 
       </div>
     </section><!-- End Team Section -->
+
+    <section id="" class="contact">
+
+      <div class="container" id="carriere">
+        <div class="card  mt-5">
+          <div class="card-body">
+            <div class="row mb-2">
+                <div class="section-header">
+                  <h2 style="float: left"> Postuler chez nous  <i class="bi bi-pen"></i> </h2>
+                </div>
+
+                <div class="">
+                  <p class="float-right">
+                    <button style="float:right" class="btn btn-outline-warning mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      Politique de Confidentialité
+                    </button>
+                  </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body" style="margin-top: 45px;border-radius: 3pc;background-color: aliceblue;">
+                      Nous collectons vos informations lorsque vous utilisez
+                      nos services web, cela inclut vos informations personnelles telles que :
+                      votre nom, votre adresse électronique, votre adresse postale, votre
+                      numéro de téléphone, CV et bien d'autres. <br>
+                      Ces informations sont soigneusement conservées dans le strict respect de votre personne
+                      et ne seront en aucun cas divulguées à des tierces. <br>
+                      Votre condidature ne sera consultée que par nos services habilités ! <br>
+                      PALOMA SERVICES vous remercie de votre confiance !!
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="col-md-12">
+                    <div class="col-lg-12">
+                    <form action="{{ route('post.resume') }}" method="post" role="form" class="" enctype="multipart/form-data">
+                        @csrf
+                        @if(Session::has('mail-response'))
+                            <div class="alert alert-success">
+                                <h4>{{ Session::get('mail-resume-response') }}</h4>
+                            </div>
+                        @endif
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <input type="text" id="name" name="name" class="form-control" id="name" placeholder="Votre nom" min="4" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <input type="email" id="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                        </div>
+                      </div>
+                      <div class="row mt-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="subject" name="subject" id="subject" placeholder="Sujet" min="5" required>
+                        </div>
+                        <div class="col-md-6" style="margin-top: -12px">
+                            <label for="" class="text-hybride">CV</label>
+                            <input type="file" class="form-control" name="resume" placeholder="CV">
+                        </div>
+
+                      </div>
+                      <div class="form-group mt-3">
+                        <textarea class="form-control" name="body" id="body" placeholder="Message" style="margin-top: 25px;" minlength="5" required></textarea>
+                      </div>
+
+                      <div class="text-center"><button class="btn btn-primary mt-3" type="submit" id="send_mail">Soumettre</button></div>
+                    </form>
+                  </div><!-- End Contact Form -->
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <!-- <section id="recent-blog-posts" class="recent-blog-posts">
@@ -909,7 +983,7 @@
           <div class="col-lg-4">
 
             <div class="info">
-              <h3>Entrer en contact</h3>
+              <h3>Entrer en contact avec nous</h3>
               <p>Pour avoir plus d'information sur PALOMA SERVICE veuillez nous contacter ci-après.</p>
 
               <div class="info-item d-flex">
@@ -942,28 +1016,31 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="{{ route('mail') }}" method="post" role="form" class="php-email-form">
+            <form action="{{ route('contact.mail') }}" method="post" role="form" >
                 @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                  <input type="text" id="name" name="name" class="form-control" id="name" placeholder="Votre nom" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                  <input type="email" id="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+              <div class="row mt-3">
+                <div class="col-md-12">
+                    <input type="text" class="form-control" id="subject" name="subject" id="subject" placeholder="Sujet" required>
+                </div>
+
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="body" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="body" id="body" placeholder="Message" style="margin-top: 25px;" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <!--<div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Votre méssage a été bien envoyé. Merci !</div>
-              </div>
-              <div class="text-center"><button type="submit">Envoyer le Message</button></div>
+                <div class="sent-message">Votre méssage a été envoyé. Merci de nous avoir contacté!</div>
+              </div>-->
+              <div class="text-center"><button type="submit" id="send_mail">Envoyer le Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -1010,7 +1087,7 @@
             <p>Pour plus de notifications sur notre entreprise veuillez saisir votre adresse e-mail </p>
             <form action="{{ route('subscribe') }}" method="post">
                 @csrf
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" id="email_newsletter" name="email"><input type="submit" value="Subscribe">
             </form>
 
           </div>
@@ -1062,7 +1139,38 @@
 
   <!-- Template Main JS File -->
   <script src="{{ asset('assets/js/main.js') }}"></script>
+  <script>
+    /*$(document).on("click","#save",function(){
+        e.preventDefault(); //Prevent page from submiting
 
+        var _token = $("input[name=_token]").val();
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var subject = $("#subject").val();
+        var body = $("#body").val();
+
+        $.ajax({
+        type:"post",
+        url: "{{ route('contact.mail') }}",
+        data: {
+            "_token" : _token,
+            "name" : name,
+            "email" : email,
+            "subject" : subject,
+            "body" : body
+        },
+        success:function(response) {
+            if (response == "Email sent") {
+
+            }
+        },
+        error:function() {
+        }
+    });
+
+
+    });*/
+  </script>
 </body>
 
 </html>

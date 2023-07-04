@@ -7,22 +7,26 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
+use Illuminate\Mail\Mailables\Attachment;
 use Illuminate\Queue\SerializesModels;
 
-class ContactMail extends Mailable
+class PostResumeMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    protected $data = [];
+
+    protected $data;
+    //protected $resume;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($datum)
+    public function __construct($mail)
     {
-        $this->$data = $datum;
+        $this->data = $mail;
+        //$this->resume = $resume;
     }
 
     /**
@@ -33,7 +37,7 @@ class ContactMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: $this->$data['subject'],
+            subject: 'CANDIDATURE SPONTANNEE',
         );
     }
 
@@ -45,7 +49,8 @@ class ContactMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            markdown: 'emails.postResumeMail',
+            with: ['data' => $this->data]
         );
     }
 
@@ -54,8 +59,12 @@ class ContactMail extends Mailable
      *
      * @return array
      */
-    public function attachments()
+    public function attachments() : array
     {
-        return [];
+        return [
+            Attachment::fromPath( storage_path('app/' . $this->data['resume']))
+                        ->as('Curriculum_Vitae.pdf')
+                        ->withMime('application/pdf'),
+        ];
     }
 }

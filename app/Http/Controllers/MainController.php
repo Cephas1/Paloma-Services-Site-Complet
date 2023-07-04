@@ -3,7 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Newsletter;
+use App\Mail\ContactUsMail;
+use App\Mail\PostResumeMail;
+use Illuminate\Mail\Mailables\Attachment;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rules\File;
+
 
 class MainController extends Controller
 {
@@ -45,17 +51,19 @@ class MainController extends Controller
             'email' => ['string', 'max:59', 'email'],
             'name' => ['string'],
             'subject' => ['string', 'max:255'],
-            'body' => ['string']
+            'body' => ['string'],
+            //'resume' => ['required', File::types(['pdf', 'doc', 'docx'])]
         ]);
 
         $mail = [
-            'email' => $request->sender,
-            'name' => $request->sender_name,
+            'email' => $request->email,
+            'name' => $request->name,
             'subject' => $request->subject,
-            'body' => $request->body
+            'body' => $request->body,
+            //'resume' => $request->resume
         ];
 
-
+        Mail::to(env('MAIL_TO_CONTACT'))->send(new ContactUsMail($mail));
 
         return back();
     }
@@ -66,9 +74,33 @@ class MainController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function postResume(Request $request)
     {
-        //
+        $request->validate([
+            'email' => ['string', 'max:59', 'email'],
+            'name' => ['string', 'min:4'],
+            'subject' => ['string', 'max:255'],
+            'body' => ['string'],
+            'resume' => ['required', File::types(['pdf']), 'max:2500']
+        ]);
+
+        $file = $request->resume;
+        $path = $file->store('resumes');
+
+        $mail = [
+            'email' => $request->email,
+            'name' => $request->name,
+            'subject' => $request->subject,
+            'body' => $request->body,
+            'resume' => $path
+        ];
+
+        //dd(env('MAIL_TO_NAME'));
+        //$resume = $request->resume;
+
+        Mail::to(env('MAIL_TO_NAME', 'recrutement@paloma-sces.com'))->send(new PostResumeMail($mail));
+
+        return back();
     }
 
     /**
