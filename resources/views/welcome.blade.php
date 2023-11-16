@@ -146,7 +146,7 @@
             <strong>Réhabilitation et construction des bâtiments civil et industruel</strong>, <strong>soudure</strong>,
             <strong>chaudronnerie</strong>, <strong>Protection cathodique et réparation de la tuyauterie à la
             résine</strong>. <br>
-            Créée en 1994, soit depuis 29 ans, son expérience et son savoir faire ne sont plus à démontrer.
+            Créée en 1994, soit depuis un peu plus de 29 ans, son expérience et son savoir faire ne sont plus à démontrer.
             <br> Elle est implantée en République du Congo, et constitue aussi un élément important et significatif du tissu industriel local.
           </p>
         </div>
@@ -196,7 +196,7 @@
 
                 <div class="d-flex align-items-center mt-4">
                   <i class="bi bi-check2"></i>
-                  <h4>29 ans d'expérience et un réel souci de la satisfaction client</h4>
+                  <h4>Un peu plus de 29 ans d'expérience et un réel souci de la satisfaction client</h4>
                 </div>
 
               </div><!-- End Tab 1 Content -->
@@ -779,10 +779,10 @@
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/jeanjacques.loussilaho"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/jean-jacques-lousseth-a09908178/"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Jean-Jacques LOUSSILAHO</h4>
                 <span>Président Directeur Général</span>
@@ -793,14 +793,14 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Mme-lousseth.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>ETHA Rébélie</h4>
                 <span>Présidente Directrice Générale Adjointe</span>
@@ -811,14 +811,14 @@
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/img/Samer-Nehme.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/samer.carlos.nehme"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/samer-nehme-b433a6105/?originalSubdomain=cg"><i class="bi bi-linkedin"></i></a>
                 </div>
                 <h4>Samer NEHME</h4>
                 <span>Directeur Général</span>
@@ -967,13 +967,13 @@
 
         <div class="section-header">
           <h2>Nous contacter <i class="bi bi-phone-flip"></i> </h2>
-          <p>...</p>
+          <p>Plan de localisation Map</p>
         </div>
 
       </div>
 
       <div class="map">
-        <iframe src="https://maps.google.com/maps?q=VINDOULU%20entreprise%20paloma%20services%20Face%20station%20Total%20Pointe,%20R%C3%A9publique%20du%20Congo&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d301.2626459736023!2d11.92860291468634!3d-4.721592648440073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1svindulu%20station%20totale!5e1!3m2!1sfr!2scg!4v1700149778833!5m2!1sfr!2scg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
       <div class="container">
@@ -984,13 +984,13 @@
 
             <div class="info">
               <h3>Entrer en contact avec nous</h3>
-              <p>Pour avoir plus d'information sur PALOMA SERVICE veuillez nous contacter ci-après.</p>
+              <p>Pour entrer facilement en contact avec PALOMA SERVICES </p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>VINDOULU, Route National N°:01, Face station TotalPointe, République du Congo</p>
+                  <p>VINDOULOU, Route Nationale N°:01, Face station Total, Pointe-Noire République du Congo</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -998,7 +998,8 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Téléphone:</h4>
-                  <p>+242 04 060 79 08</p>
+                  <p>+242 05 557 54 41</p>
+                  <p>+242 06 657 54 41</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1006,8 +1007,8 @@
                 <i class="bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h4>Horaire</h4>
-                  <p>Lundi - Vendredi : 08.00 - 17.00
-                    Samedi: 09:00 - 12:00</p>
+                  <p>Lundi - Vendredi : 08.00 - 17.00</p>
+                  <P>Samedi: 09:00 - 12:00</p>
                 </div>
               </div><!-- End Info Item -->
 
